@@ -13,6 +13,7 @@ export function Content() {
   const [imagem, setImagem] = useState('')
   const [bio, setBio] = useState('')
   const [success, setSuccess] = useState(false)
+  //link do servidor
   const baseURL = 'https://api-backend-programaria.onrender.com/mulheres'
 
   useEffect(() => {
@@ -59,7 +60,7 @@ export function Content() {
     <>
       <Header
         title='Rede do Bem'
-        subtitle='Cadastre-se no nosso voluntariado e vamos transformar o mundo juntas'
+        subtitle='Cadastre-se no nosso voluntariado e vamos transformar o mundo juntes!'
         image={listaImg}
       />
       <div className={styles.projectsContainer}>
@@ -104,8 +105,8 @@ export function Content() {
             value={bio}
             className={styles.formTextArea}
           />
-          <button className={styles.formButton} type="submit">Enviar mensagem</button>
-          {success && <p>Cadastro realizado com sucesso.</p>}
+          <button className={styles.formButton} type="submit">Enviar formulário</button>
+          {success && <p className={styles.sendSuccessfully}>Cadastro realizado com sucesso!</p>}
         </form>
       </div>
       <Footer />
