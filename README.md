@@ -8,3 +8,4 @@ O site está hospedado na Vercel e possui conexão com um servidor que está lin
 
 Pra rodar basta clonar o repostório, abrir no editor de código de sua preferência e instalar as dependencias do projeto com 'npm install'. Após as dependências instaladas, rode o projeto com o comando "npm run dev".
 
+O projeto foi desenvolvido para realizar integração com a API desenvolvida no curso de Back-end Turma 01 da programaria :)
