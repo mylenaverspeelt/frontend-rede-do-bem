@@ -14,7 +14,7 @@ export function Content() {
   const [bio, setBio] = useState('')
   const [success, setSuccess] = useState(false)
   //link do servidor
-  const baseURL = 'https://api-rede-do-bem.onrender.com/'
+  const baseURL = 'https://api-rede-do-bem.onrender.com/voluntaries'
 
   useEffect(() => {
     async function getData() {
