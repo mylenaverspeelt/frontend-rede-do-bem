@@ -14,7 +14,7 @@ export function Content() {
   const [bio, setBio] = useState('')
   const [success, setSuccess] = useState(false)
   //link do servidor
-  const baseURL = 'https://api-backend-programaria.onrender.com/mulheres'
+  const baseURL = 'https://api-rede-do-bem.onrender.com/'
 
   useEffect(() => {
     async function getData() {
